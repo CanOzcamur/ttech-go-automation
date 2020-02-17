@@ -18,7 +18,7 @@ public class TestBase {
     public void beforeMethod(Method method) throws CloneNotSupportedException, UnsupportedEncodingException {
         try {
             DriverManager.setDriver(Browser.prepareDriver());
-            DriverManager.getDriver().navigate().to("http://192.168.43.186:8080/user");
+            DriverManager.getDriver().navigate().to("http://localhost:8080/user");
             DriverManager.getDriver().manage().timeouts().pageLoadTimeout((long)60, TimeUnit.SECONDS);
         } catch (Exception ignore) {
         }

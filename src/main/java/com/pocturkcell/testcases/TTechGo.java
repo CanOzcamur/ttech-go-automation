@@ -1,16 +1,16 @@
 package com.pocturkcell.testcases;
 
-import com.pocturkcell.model.pages.TTagGoPage;
+import com.pocturkcell.model.pages.TTechGoPage;
 import com.pocturkcell.model.pages.TestBase;
 import org.testng.annotations.Test;
 
-public class TTagGo extends TestBase
+public class TTechGo extends TestBase
 {
-    private TTagGoPage homePage;
+    private TTechGoPage homePage;
 
-    public TTagGo()
+    public TTechGo()
     {
-        this.homePage = new TTagGoPage();
+        this.homePage = new TTechGoPage();
     }
 
     @Test

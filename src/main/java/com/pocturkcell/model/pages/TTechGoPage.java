@@ -4,7 +4,7 @@ import com.pocturkcell.util.TimerUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class TTagGoPage extends CustomBasePageMethods
+public class TTechGoPage extends CustomBasePageMethods
 {
 
     By msisdnInput = By.id("inlineFormInputGroup");

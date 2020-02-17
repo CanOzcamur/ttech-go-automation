@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Fix">
+	<test name="Test Otomasyon">
+		<classes>
+			<class name="com.pocturkcell.testcases.NewOrder"></class>
+			<class name="com.pocturkcell.testcases.OrderDetails"></class>
+		</classes>
+	</test>
+</suite>
